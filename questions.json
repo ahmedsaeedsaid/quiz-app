@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "611e83449fde65bf6ef1fe7a"
+  },
+  "question": "Bigha and Guintha are",
+  "answers": [
+    "the type of village house",
+    "the type of hybrid seeds",
+    "the measuring units of grain",
+    "the measuring units of land area in village"
+  ],
+  "answer": 3
+},{
+  "_id": {
+    "$oid": "611e84129fde65bf6ef1fe7b"
+  },
+  "question": "Finance raised to operate a business is called",
+  "answers": [
+    "labour",
+    "enterprise",
+    "land",
+    "capital"
+  ],
+  "answer": 3
+},{
+  "_id": {
+    "$oid": "611e89479fde65bf6ef1fe7c"
+  },
+  "question": "Minimum wages for a farm labourer set by the government is",
+  "answers": [
+    "Rupees 80",
+    "Rupees 90",
+    "Rupees 115",
+    "Rupees 120"
+  ],
+  "answer": 2
+},{
+  "_id": {
+    "$oid": "611e89559fde65bf6ef1fe7d"
+  },
+  "question": "The Green Revolution introduced the farmers to",
+  "answers": [
+    "cultivation of wheat and rice",
+    "cultivation of green vegetables",
+    "cultivation of sugar cane",
+    "cultivation of forests"
+  ],
+  "answer": 0
+},{
+  "_id": {
+    "$oid": "611e8cc69fde65bf6ef1fe7e"
+  },
+  "question": "The small farmers constitute about _________ per cent of total farmers in India",
+  "answers": [
+    "50",
+    "60",
+    "70",
+    "80"
+  ],
+  "answer": 3
+},{
+  "_id": {
+    "$oid": "611e8cc89fde65bf6ef1fe7f"
+  },
+  "question": "The new ways of farming need",
+  "answers": [
+    "less land",
+    "more capital",
+    "machinery",
+    "all of the above"
+  ],
+  "answer": 3
+},{
+  "_id": {
+    "$oid": "611e8cca9fde65bf6ef1fe80"
+  },
+  "question": "The most abundant factor of production is",
+  "answers": [
+    "labour",
+    "land",
+    "machinery",
+    "all of the above"
+  ],
+  "answer": 0
+},{
+  "_id": {
+    "$oid": "611e8ccc9fde65bf6ef1fe81"
+  },
+  "question": "Multiple Cropping refers to :",
+  "answers": [
+    "Cultivation of wheat and rice",
+    "cultivation of two crops in alternate rows",
+    "cultivating more than one crop on the same field each year",
+    "cultivating crops and rearing animals on the same farm"
+  ],
+  "answer": 2
+},{
+  "_id": {
+    "$oid": "611e8cd09fde65bf6ef1fe82"
+  },
+  "question": "Working capital stands for :",
+  "answers": [
+    "Tools, machines and buildings",
+    "raw materials and money in hand",
+    "total share capital",
+    "fixed deposits in financial institutions"
+  ],
+  "answer": 1
+},{
+  "_id": {
+    "$oid": "611e8cd29fde65bf6ef1fe83"
+  },
+  "question": "Which one of the following is not an effect of the modern farming?",
+  "answers": [
+    "Soil degradation",
+    "Deforestation",
+    "Decrease in groundwater",
+    "Water pollution"
+  ],
+  "answer": 3
+}]
