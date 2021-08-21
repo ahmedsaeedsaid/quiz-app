@@ -1,29 +1,14 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 
 class SignUp extends Component {
   constructor() {
     super();
-    this.state = {
-      name: ""
-    };
-
-    this.signUpNow = this.signUpNow.bind(this);
   }
 
-  signUpNow() {
-
-    const { name } = this.state;
-
-    if (!name.match(/\S+/)) {
-      alert("please enter correct name");
-    }
-    else {
-      let userObj = { name };
-      sessionStorage.setItem("user", JSON.stringify(userObj));
-      this.props.changeUserState();
-      
-    }
-
+  signUp = () => {
+    var name = document.querySelector("input[name='name']").value;
+    !name.match(/\S+/) ? alert("please enter correct name"):this.props.saveName(name);
   }
 
   render() {
@@ -31,31 +16,44 @@ class SignUp extends Component {
       <div>
         <h1 className="text-center ">REGISTRATION</h1>
         <br />
-        <div className="row">
-          <div className="col-md-4">
+        <div className="row" id="content">
+          <div className="col-md-12 ">
             <label htmlFor="name">Name:</label>
             <input
               type="text"
-              onChange={e => {
-                this.setState({ name: e.target.value });
-              }}
+              name="name"
               autoFocus={true}
               className="form-control"
               placeholder="name"
             />
           </div>
           
-          <div className="row">
-            <div className="col">
-              <button className="btn btn-primary" onClick={this.signUpNow}>
-                Submit <i className="fa fa-database" />
-              </button>
-            </div>
+          <div className="col">
+          <br/>
+          <br/>
+            <button className="btn btn-primary" onClick={this.signUp}>
+              Submit <i className="fa fa-database" />
+            </button>
           </div>
-        </div>
+          
+          
+        </div>        
       </div>
     );
   }
+
+
+}
+function mapStateToProps(state) {
+    return {
+      name : state.name
+    }
 }
 
-export default SignUp;
+function mapDispatchToProps(dispatch){
+  return {
+    saveName : (name) => { dispatch({type:'SAVE_NAME',name:name}) }
+  }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(SignUp);
